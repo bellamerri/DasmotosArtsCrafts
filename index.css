@@ -1,0 +1,72 @@
+
+h1 {
+    font-family: Helvetica;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+    background-image: url(images/pattern.jpg);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    position: relative;
+    width: 1000px;
+    margin: 25px auto;
+    z-index: 1;
+    background-image: url("/Volumes/LaCie/Codecademy/Projects/Dasmoto's Arts and Crafts/images/jen.jpg");
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.framestitle, .painttitle, .brushestitle {
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+.framestitle {
+    background-color: lightcoral;
+}
+
+.painttitle {
+    background-color: skyblue;
+}
+
+.brushestitle {
+    background-color: mediumspringgreen;
+}
+
+.p1, .button {
+    font-family: Helvetica;
+    font-weight: bold;
+    color:blue;
+}
+
+.button {
+    font-family: Helvetica;
+    background-color: teal;
+    border: 0;
+    color: white;
+    padding: 10px 52px;
+    text-align: center;
+    text-decoration: spotted;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 50%;
+  }
+
+.parallax {
+    background-image: url("/Volumes/LaCie/Codecademy/Projects/Dasmoto's Arts and Crafts/images/unsplash.jpg");
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
